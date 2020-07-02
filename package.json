@@ -1,0 +1,25 @@
+{
+  "name": "@furtheinterested/e621-wrapper",
+  "version": "1.0.1",
+  "description": "A quick and dirty (pun intended) e621 wrapper for your horny furry programming needs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests!\"&&exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/password12004/e621-wrapper"
+  },
+  "keywords": [
+    "furry",
+    "porn",
+    "wrapper",
+    "function",
+    "class",
+    "e621",
+    "javascript",
+    "OOP"
+  ],
+  "author": "kjl3080",
+  "license": "ISC"
+}
