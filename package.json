@@ -1,6 +1,6 @@
 {
   "name": "@furtheinterested/e621-wrapper",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A quick and dirty (pun intended) e621 wrapper for your horny furry programming needs.",
   "main": "index.js",
   "scripts": {

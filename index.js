@@ -36,8 +36,8 @@ class e621  { // Wrapper can be initialized using (const e621Wrapper = new e621(
      * @param {string} id - the ID of the user.
      */
     getUserById(id) {
-        console.warn("Currently, due to API renovation, e621's handling of users is broken.")
-        request.get(`https://e621.net/users/index.json?id=${id}`,
+        //console.warn("Currently, due to API renovation, e621's handling of users is broken.")
+        request.get(`https://e621.net/users/${id}.json`,
         {
             headers: {
                 'User-Agent': this.user_agent,
@@ -58,8 +58,8 @@ class e621  { // Wrapper can be initialized using (const e621Wrapper = new e621(
      * @param {string} name - the name of the user 
      */
     getUserByName(name) {
-        console.warn("Currently, due to API renovation, e621's handling of users is broken.")
-        request.get(`https://e621.net/users/index.json?name=${name}`,
+        //console.warn("Currently, due to API renovation, e621's handling of users is broken.")
+        request.get(`https://e621.net/users/${name}.json`,
         {
             headers: {
                 'User-Agent': this.user_agent,
