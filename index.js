@@ -1,3 +1,14 @@
+// TODO 'use strict';
+
+/**
+ * @module e621
+ * @author kjl3080
+ * @license MIT
+ * 
+ * @TODO Add POST, PUT, DELETE, and PATCH controllers
+ * @TODO access comments
+ * @TODO once done, make @furtheinterested/e621-wrapper unstable builds only and update and undeprecate e621-wrapper
+ */
 const request = require('request');
 const { response } = require('express');
 class e621  { // Wrapper can be initialized using (const e621Wrapper = new e621(...params);)
@@ -51,6 +62,7 @@ class e621  { // Wrapper can be initialized using (const e621Wrapper = new e621(
                 throw new Error("Error during GET Request: Status code " + status);
             }
             const data = JSON.parse(body)
+            return data
         })        
     }
     /**
