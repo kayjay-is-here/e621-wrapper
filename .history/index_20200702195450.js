@@ -10,7 +10,7 @@
  * @TODO once done, make @furtheinterested/e621-wrapper unstable builds only and update and undeprecate e621-wrapper
  */
 const request = require('request');
-//const { response } = require('express');
+const { response } = require('express');
 class e621  { // Wrapper can be initialized using (const e621Wrapper = new e621(...params);)
     
     // Initialization
